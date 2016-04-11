@@ -1,0 +1,61 @@
+/* Fonts */
+@font-face {
+    font-family: SegoeUI;
+    src: local('Segoe UI'), local('Helvetica Neue');
+}
+
+@font-face {
+    font-family: SegoeUILight;
+    src: local('Segoe UI Light'), local('Segoe UI Semilight'), local('Segoe UI'), local('Helvetica Neue');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SegoeUISemibold;
+    src: local('Segoe UI Semibold'), local('Segoe UI'), local('Helvetica Neue');
+    font-weight: 600;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 0.1em;
+  margin: 0.1em;
+}
+
+html {
+  max-width: 600px;
+  background-color: #344;
+  font-family: SegoeUI, 'Segoe UI Semibold', SegoeUI, 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background-color: #455;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid #566;
+}
+
+#taskify-tree .outer-container {
+  background-color: #566;
+  margin: 0.2em;
+  padding: 0.2em;
+  border: 0.2em solid #677;
+}
+#taskify-tree .outer-container ul {
+  margin: 1%;
+  padding: 0;
+  list-style: none;
+}
+#taskify-tree .inner-container {
+  background-color: #677;
+  padding: 0.2em;
+  margin: 0.2em;
+  border: 0.2em solid #788;
+}
+#taskify-editor {
+  background-color: #677;
+  padding: 0.2em;
+  margin: 0.2em;
+  border: 0.2em solid #788;
+}
